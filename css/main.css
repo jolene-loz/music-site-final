@@ -34,7 +34,7 @@ body {
  * ------------------------------------------------------------------- */
 
 a {
-    color: #42f4d4;
+    color: orangered;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -131,9 +131,11 @@ h6, .h06 {
 
 .image{
     position: relative;
-    
+    justify-content: center;
+    align-items: center;
     margin-bottom: 10px;
     border-radius: 25px;
+    height: auto;
    
 }
 
